@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Básica - Academia de Economía</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="ornament top">❦</div>
+        <h1 class="title">GUÍA BÁSICA</h1>
+        <p class="subtitle">Fundamentos de la Economía</p>
+        <div class="ornament bottom">❦</div>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="guia-basica.html" class="active">Guía Básica</a></li>
+            <li><a href="guia-intermedia.html">Nivel Intermedio</a></li>
+            <li><a href="guia-avanzada.html">Maestría Avanzada</a></li>
+            <li><a href="estrategias.html">Estrategias</a></li>
+            <li><a href="mercado-vivo.html">Mercado en Vivo</a></li>
+        </ul>
+    </nav>
+
+    <section class="content">
+        <div class="container">
+            <h2 class="section-title">⚖️ Ley de Oferta y Demanda</h2>
+            <div class="line"></div>
+            
+            <div class="box">
+                <h3>El Principio Fundamental</h3>
+                <p class="intro">
+                    Toda economía funciona con un principio básico: 
+                    <strong>cuando hay más demanda que oferta, los precios suben</strong>. 
+                    Al revés, cuando sobra producto, los precios bajan.
+                </p>
+
+                <div class="formula-container">
+                    <h4>📐 Fórmula del Índice de Demanda</h4>
+                    <div class="formula">
+                        Índice de Demanda = <span class="fraction"><span>Demanda Total</span><span>Oferta Total</span></span>
+                    </div>
+                    <ul class="formula-list">
+                        <li><strong>ID {"<"} 1.0</strong> → Exceso de oferta → Precios bajan</li>
+                        <li><strong>ID = 1.0</strong> → Equilibrio → Precios estables</li>
+                        <li><strong>ID {">"} 1.0</strong> → Exceso de demanda → Precios suben</li>
+                        <li><strong>ID {">"} 2.0</strong> → ⚠️ CRISIS DE OFERTA → Precios explotan (+50% a +100%)</li>
+                    </ul>
+                </div>
+
+                <div class="example">
+                    <h4>📊 Ejemplo Práctico</h4>
+                    <p><strong>Situación:</strong> Mercado de Diamantes</p>
+                    <table class="data-table">
+                        <tr>
+                            <th>Concepto</th>
+                            <th>Valor</th>
+                        </tr>
+                        <tr>
+                            <td>Demanda Total</td>
+                            <td>500 diamantes</td>
+                        </tr>
+                        <tr>
+                            <td>Oferta Total</td>
+                            <td>200 diamantes</td>
+                        </tr>
+                        <tr>
+                            <td>Índice de Demanda</td>
+                            <td>500 ÷ 200 = <strong>2.5</strong></td>
+                        </tr>
+                        <tr class="highlight">
+                            <td>Resultado</td>
+                            <td>⚠️ CRISIS DE OFERTA - Precios +75%</td>
+                        </tr>
+                    </table>
+                    <p class="tip">
+                        💡 <strong>Tu Acción:</strong> Si tienes diamantes, ¡VENDE INMEDIATAMENTE! 
+                        El precio pasó de $100 a $175 por unidad.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content alt">
+        <div class="container">
+            <h2 class="section-title">💰 Precios Base del Mercado</h2>
+            <div class="line"></div>
+
+            <div class="box">
+                <h3>Categorías de Commodities</h3>
+
+                <div class="price-tables">
+                    <!-- Materiales Básicos -->
+                    <div class="price-category">
+                        <h4>🪨 Materiales de Construcción Básicos</h4>
+                        <table class="price-table">
+                            <thead>
+                                <tr>
+                                    <th>Material</th>
+                                    <th>Venta</th>
+                                    <th>Compra</th>
+                                    <th>Categoría</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>COBBLESTONE</td>
+                                    <td>$0.50</td>
+                                    <td>$1.00</td>
+                                    <td class="tag-abundant">Abundante</td>
+                                </tr>
+                                <tr>
+                                    <td>STONE</td>
+                                    <td>$1.00</td>
+                                    <td>$1.50</td>
+                                    <td class="tag-abundant">Abundante</td>
+                                </tr>
+                                <tr>
+                                    <td>DIRT</td>
+                                    <td>$0.10</td>
+                                    <td>$0.30</td>
+                                    <td class="tag-very-abundant">Muy Abundante</td>
+                                </tr>
+                                <tr>
+                                    <td>GRAVEL</td>
+                                    <td>$0.80</td>
+                                    <td>$1.20</td>
+                                    <td class="tag-common">Común</td>
+                                </tr>
+                                <tr>
+                                    <td>SAND</td>
+                                    <td>$1.50</td>
+                                    <td>$2.00</td>
+                                    <td class="tag-common">Común</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Combustibles -->
+                    <div class="price-category highlight">
+                        <h4>⛏️ Combustibles Industriales</h4>
+                        <table class="price-table">
+                            <thead>
+                                <tr>
+                                    <th>Material</th>
+                                    <th>Venta</th>
+                                    <th>Compra</th>
+                                    <th>Importancia</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="critical">
+                                    <td>COAL</td>
+                                    <td>$8.00</td>
+                                    <td>$12.00</td>
+                                    <td class="tag-critical">CRÍTICO</td>
+                                </tr>
+                                <tr>
+                                    <td>CHARCOAL</td>
+                                    <td>$6.00</td>
+                                    <td>$10.00</td>
+                                    <td class="tag-alt">Alternativa</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Metales -->
+                    <div class="price-category">
+                        <h4>🔨 Metales Industriales</h4>
+                        <table class="price-table">
+                            <thead>
+                                <tr>
+                                    <th>Material</th>
+                                    <th>Venta</th>
+                                    <th>Compra</th>
+                                    <th>Multiplicador</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>IRON_ORE</td>
+                                    <td>$12.00</td>
+                                    <td>$18.00</td>
+                                    <td>1.5x</td>
+                                </tr>
+                                <tr>
+                                    <td>IRON_INGOT</td>
+                                    <td>$15.00</td>
+                                    <td>$25.00</td>
+                                    <td>1.67x</td>
+                                </tr>
+                                <tr class="bulk-row">
+                                    <td>IRON_BLOCK</td>
+                                    <td>$135.00</td>
+                                    <td>$225.00</td>
+                                    <td>9x (bulk)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Metales Preciosos -->
+                    <div class="price-category">
+                        <h4>💎 Metales Preciosos</h4>
+                        <table class="price-table">
+                            <thead>
+                                <tr>
+                                    <th>Material</th>
+                                    <th>Venta</th>
+                                    <th>Compra</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>GOLD_ORE</td>
+                                    <td>$25.00</td>
+                                    <td>$35.00</td>
+                                    <td class="tag-precious">Precioso</td>
+                                </tr>
+                                <tr>
+                                    <td>GOLD_INGOT</td>
+                                    <td>$30.00</td>
+                                    <td>$50.00</td>
+                                    <td class="tag-precious">Moneda</td>
+                                </tr>
+                                <tr>
+                                    <td>DIAMOND</td>
+                                    <td>$100.00</td>
+                                    <td>$150.00</td>
+                                    <td class="tag-elite">Élite</td>
+                                </tr>
+                                <tr class="luxury-row">
+                                    <td>NETHERITE_INGOT</td>
+                                    <td>$850.00</td>
+                                    <td>$1,200.00</td>
+                                    <td class="tag-luxury">Ultra-Lujo</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container">
+            <h2 class="section-title">🏪 Tu Primera Estación</h2>
+            <div class="line"></div>
+
+            <div class="box">
+                <h3>Creando una Estación Comercial</h3>
+                
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-num">1</div>
+                        <div class="step-info">
+                            <h4>Crear la Estación</h4>
+                            <code>/trainstation crear [nombre]</code>
+                            <p>Ejemplo: <code>/trainstation crear "Mina del Norte"</code></p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-num">2</div>
+                        <div class="step-info">
+                            <h4>Agregar Productos a Vender</h4>
+                            <code>/trainstation addstock [material] [cantidad]</code>
+                            <p>Ejemplo: <code>/trainstation addstock COAL 500 </code></p>
+                            <p class="tip">💡 Venderás 500 carbones a $10 cada uno</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-num">3</div>
+                        <div class="step-info">
+                            <h4>Declarar Demanda (Comprar)</h4>
+                            <code>/trainstation demandar [material] [cantidad]</code>
+                            <p>Ejemplo: <code>/trainstation demandar DIAMOND 10</code></p>
+                            <p class="tip">💡 Comprarás hasta 10 diamantes a un precio de mercado</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-num">4</div>
+                        <div class="step-info">
+                            <h4>Ver Tus Ofertas</h4>
+                            <code>/trainstation info</code>
+                            <p>Muestra toda la información de tu estación</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="warning">
+                    <h4>⚠️ Importante</h4>
+                    <ul>
+                        <li>Debes tener los productos en tu inventario al ofertar</li>
+                        <li>Debes tener dinero suficiente al demandar</li>
+                        <li>Los envíos automáticos ocurren cuando alguien demanda tu oferta</li>
+                        <li>La estación más cercana con stock disponible envía primero</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content alt">
+        <div class="container">
+            <h2 class="section-title">🚂 Comandos Esenciales</h2>
+            <div class="line"></div>
+
+            <div class="cmd-grid">
+                <div class="cmd-card">
+                    <h4>Mercado General</h4>
+                    <code>/traintrade mercado</code>
+                    <p>Vista general del mercado mundial</p>
+                </div>
+
+                <div class="cmd-card">
+                    <h4>Ver Precio</h4>
+                    <code>/traintrade precio [material]</code>
+                    <p>Consulta el precio actual de un material</p>
+                </div>
+
+                <div class="cmd-card">
+                    <h4>Análisis Básico</h4>
+                    <code>/traintrade analisis [material]</code>
+                    <p>Información detallada del material</p>
+                </div>
+
+                <div class="command-card">
+                    <h4>Listar Estaciones</h4>
+                    <code>/trainstation listar</code>
+                    <p>Ver todas las estaciones del servidor</p>
+                </div>
+
+                <div class="command-card">
+                    <h4>Tu Estación</h4>
+                    <code>/trainstation info</code>
+                    <p>Información de tu estación</p>
+                </div>
+
+                <div class="cmd-card">
+                    <h4>Ayuda Completa</h4>
+                    <code>/traintrade ayuda</code>
+                    <p>Lista completa de comandos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¡Listo para el Siguiente Nivel!</h2>
+                <p>Has dominado los fundamentos. Ahora aprende análisis de mercado avanzado.</p>
+                <div class="btns">
+                    <a href="guia-intermedia.html" class="btn large primary">Nivel Intermedio →</a>
+                    <a href="index.html" class="btn large secondary">← Volver al Inicio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Academia Económica</h4>
+                    <p>Instituto de Excelencia Económica</p>
+                </div>
+            </div>
+            <div class="footer-btm">
+                <p>&copy; 2025 Attila Studios</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <style>
+        .content-section { padding: 60px 0; }
+        .alt-bg { background: white; }
+        .content-box { background: var(--background-paper); padding: 40px; border-radius: 12px; border: 2px solid var(--border-ornate); margin-bottom: 40px; }
+        .formula-box { background: linear-gradient(135deg, #F5F1E3 0%, white 100%); padding: 30px; border-left: 5px solid var(--victorian-gold); margin: 30px 0; border-radius: 8px; }
+        .formula { font-family: 'Courier New', monospace; font-size: 1.3rem; text-align: center; margin: 20px 0; color: var(--victorian-burgundy); font-weight: bold; }
+        .fraction { display: inline-block; text-align: center; vertical-align: middle; }
+        .fraction > span { display: block; padding: 5px; }
+        .fraction > span:first-child { border-bottom: 2px solid var(--text-dark); }
+        .formula-explanation { list-style: none; margin-top: 20px; }
+        .formula-explanation li { padding: 10px; margin: 5px 0; background: rgba(139, 21, 56, 0.05); border-left: 3px solid var(--victorian-burgundy); }
+        .example-box { background: white; padding: 25px; border: 2px solid var(--accent-emerald); border-radius: 8px; margin: 30px 0; }
+        .data-table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        .data-table th, .data-table td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        .data-table th { background: var(--victorian-burgundy); color: white; font-weight: 600; }
+        .data-table .highlight { background: #FFF9E6; font-weight: bold; }
+        .tip { background: #E8F5E9; padding: 15px; border-left: 4px solid var(--accent-emerald); margin-top: 15px; font-style: italic; }
+        .price-tables { display: grid; gap: 30px; }
+        .price-category { background: white; padding: 25px; border-radius: 8px; box-shadow: var(--shadow-soft); }
+        .highlight-category { border: 3px solid var(--victorian-gold); background: linear-gradient(135deg, #FFF9E6 0%, white 100%); }
+        .price-table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        .price-table th, .price-table td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; }
+        .price-table th { background: var(--victorian-dark-brown); color: var(--victorian-gold); font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.05em; }
+        .price-table tbody tr:hover { background: rgba(139, 21, 56, 0.05); }
+        .tag-abundant, .tag-common, .tag-critical, .tag-precious, .tag-elite, .tag-luxury { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.85rem; font-weight: 600; }
+        .tag-abundant { background: #E0E0E0; color: #424242; }
+        .tag-very-abundant { background: #BDBDBD; color: #212121; }
+        .tag-common { background: #FFECB3; color: #F57F17; }
+        .tag-critical { background: #FFCDD2; color: #C62828; }
+        .tag-alternative { background: #C8E6C9; color: #2E7D32; }
+        .tag-precious { background: #FFE082; color: #F57C00; }
+        .tag-elite { background: #B2EBF2; color: #006064; }
+        .tag-luxury { background: #E1BEE7; color: #6A1B9A; }
+        .critical-row { background: rgba(198, 40, 40, 0.1); font-weight: 600; }
+        .bulk-row { background: rgba(46, 125, 50, 0.1); }
+        .luxury-row { background: rgba(106, 27, 154, 0.1); }
+        .category-note { background: rgba(255, 193, 7, 0.2); padding: 10px; border-radius: 5px; margin-bottom: 15px; font-weight: 600; }
+        .tip-box { background: #E8F5E9; padding: 15px; border-left: 4px solid var(--accent-emerald); margin-top: 15px; }
+        .step-by-step { display: flex; flex-direction: column; gap: 25px; }
+        .step { display: flex; align-items: flex-start; gap: 20px; background: white; padding: 25px; border-radius: 8px; box-shadow: var(--shadow-soft); }
+        .step-number { background: var(--victorian-burgundy); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold; flex-shrink: 0; }
+        .step-content { flex: 1; }
+        .step-content h4 { color: var(--victorian-burgundy); margin-bottom: 10px; }
+        .step-content code { background: var(--victorian-dark-brown); color: var(--victorian-gold); padding: 8px 15px; border-radius: 4px; display: inline-block; margin: 10px 0; font-family: 'Courier New', monospace; }
+        .warning-box { background: #FFF3E0; border: 2px solid #FF6F00; padding: 25px; border-radius: 8px; margin-top: 30px; }
+        .warning-box h4 { color: #E65100; margin-bottom: 15px; }
+        .warning-box ul { margin-left: 20px; }
+        .warning-box li { margin: 10px 0; }
+        .commands-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+        .command-card { background: var(--background-paper); border: 2px solid var(--border-ornate); padding: 25px; border-radius: 8px; transition: all 0.3s ease; }
+        .command-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-medium); border-color: var(--victorian-gold); }
+        .command-card h4 { color: var(--victorian-burgundy); margin-bottom: 15px; font-family: var(--font-title); }
+        .command-card code { background: var(--victorian-dark-brown); color: var(--victorian-gold); padding: 10px 15px; border-radius: 4px; display: block; margin: 10px 0; font-size: 0.95rem; }
+        .command-card p { color: var(--text-light); font-size: 0.95rem; }
+    </style>
+</body>
+</html>
